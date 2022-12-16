@@ -1,0 +1,19 @@
+﻿App.obj : error LNK2005: main already defined in Application.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::bind(void)" (?bind@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "private: void __cdecl MyApp::createBufferObjects(void)" (?createBufferObjects@MyApp@@AEAAXXZ) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "private: void __cdecl MyApp::createShaderProgram(void)" (?createShaderProgram@MyApp@@AEAAXXZ) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::destroy(void)" (?destroy@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "private: void __cdecl MyApp::destroyBufferObjects(void)" (?destroyBufferObjects@MyApp@@AEAAXXZ) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "public: virtual void __cdecl MyApp::displayCallback(struct GLFWwindow *,double)" (?displayCallback@MyApp@@UEAAXPEAUGLFWwindow@@N@Z) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Entity::draw(int,struct glm::mat<4,4,float,0>)" (?draw@Entity@@QEAAXHU?$mat@$03$03M$0A@@glm@@@Z) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::draw(void)" (?draw@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "private: void __cdecl MyApp::drawScene(void)" (?drawScene@MyApp@@AEAAXXZ) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "public: virtual void __cdecl MyApp::initCallback(struct GLFWwindow *)" (?initCallback@MyApp@@UEAAXPEAUGLFWwindow@@@Z) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::initParalelogram(void)" (?initParalelogram@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::initSquare(void)" (?initSquare@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::initTriangle(void)" (?initTriangle@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "public: void __cdecl Mesh::unbind(void)" (?unbind@Mesh@@QEAAXXZ) already defined in Entity.obj
+hello-2d-world.obj : error LNK2005: "public: virtual void __cdecl MyApp::windowCloseCallback(struct GLFWwindow *)" (?windowCloseCallback@MyApp@@UEAAXPEAUGLFWwindow@@@Z) already defined in App.obj
+hello-2d-world.obj : error LNK2005: "public: virtual void __cdecl MyApp::windowSizeCallback(struct GLFWwindow *,int,int)" (?windowSizeCallback@MyApp@@UEAAXPEAUGLFWwindow@@HH@Z) already defined in App.obj
+hello-2d-world.obj : error LNK2005: main already defined in Application.obj
+C:\Users\mathe\OneDrive\Documentos\Mestrado\CGJ\VS-Setup17\x64\Debug\Application17.exe : fatal error LNK1169: one or more multiply defined symbols found
